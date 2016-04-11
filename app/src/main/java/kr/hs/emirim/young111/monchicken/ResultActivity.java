@@ -34,7 +34,7 @@ public class ResultActivity extends AppCompatActivity {
         int result = r.nextInt(3);
         Log.d(TAG, "랜덤값 생성! : "+result);
 
-        mImageView.setImageResource(R.drawable.c01 + result);
+        mImageView.setImageResource(R.drawable.ch01 + result);
 
         //if
 
